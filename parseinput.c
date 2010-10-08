@@ -13,6 +13,8 @@
 #include "dist.h"
 #include "util.h"
 
+int small_matrix[MAX_SMALLDIM][MAX_SMALLDIM];
+
 int
 get_info(struct Info *si)
 {

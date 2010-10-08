@@ -14,6 +14,7 @@
 #include "heapmax.h"
 #include "util.h"
 #include "naive.h"
+#include "naive_grasp.h"
 #include "tsp.h"
 
 static void

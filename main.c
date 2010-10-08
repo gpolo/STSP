@@ -18,7 +18,7 @@
 #include <assert.h> /* XXX Used only in commented code. */
 #include <limits.h> /* XXX Used by code that should be somewhere else. */
 
-void
+static void
 usage(const char *prog)
 {
     fprintf(stderr, "Usage: %s [OPTIONS] input.tsp\n", prog);

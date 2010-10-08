@@ -13,7 +13,6 @@
 #include <assert.h>
 #include <stdbool.h>
 #include "kdtree.h"
-#include "parseinput.h"
 #include "util.h"
 
 /* The paper mentioned above mentions the following good values for

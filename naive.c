@@ -433,6 +433,7 @@ naive(data *d, int flags)
     start_time = current_usertime_secs();
     if (flags & BE_VERBOSE) {
         show_sol(tour, dim, cost);
+        /*check_tour_validity(tour, dim);*/
     }
     printf("\nStart point: %d\n", start);
     printf("Greedy-NN tour cost: %d\n", cost);

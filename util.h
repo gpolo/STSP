@@ -17,7 +17,7 @@
 #define SEED_REUSE 0
 #define SEED_NEW 1
 
-int chit, cmiss;
+extern int chit, cmiss;
 
 int cached_dist(data *d, int, int);
 void *Malloc(size_t);

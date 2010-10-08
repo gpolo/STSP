@@ -10,11 +10,12 @@
 #include <sys/resource.h>
 #include <sys/time.h>
 #include "util.h"
-#include "parseinput.h"
 
 #define M 131072
 static int cachesig[M];
 static int cacheval[M];
+
+int chit, cmiss;
 
 /* Took from Bentley's paper.
  * I have yet to find a case where this actually decreases the running time.

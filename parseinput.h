@@ -26,7 +26,7 @@ struct data {
 
 /* Para problemas com edge_weight_type == EXPLICIT. */
 #define MAX_SMALLDIM 128
-int small_matrix[MAX_SMALLDIM][MAX_SMALLDIM];
+extern int small_matrix[MAX_SMALLDIM][MAX_SMALLDIM];
 
 int get_info(struct Info *);
 int setdist_readdata(struct Info *, data *);
